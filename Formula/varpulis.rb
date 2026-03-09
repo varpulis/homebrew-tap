@@ -1,30 +1,30 @@
 class Varpulis < Formula
   desc "Modern streaming analytics engine with advanced pattern detection"
   homepage "https://github.com/varpulis/varpulis"
-  version "0.6.0"
+  version "0.6.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
       url "https://github.com/varpulis/varpulis/releases/download/v#{version}/varpulis-macos-x86_64"
-      sha256 "15f213975a659f946fca4067696ba33ba3d8b08ac6191ca1f8712c81c0849ff6"
+      sha256 "4df3f8633d42c769c498601743827d1dd971cbccd8cd8b961cfc681c9d13435b"
     end
 
     on_arm do
       url "https://github.com/varpulis/varpulis/releases/download/v#{version}/varpulis-macos-aarch64"
-      sha256 "45b0963f34bc58aab95990f749ae532227aec1412bf8690444e71c9afa54f2ec"
+      sha256 "a52856678d3df03d00e5a4b19f6392b1a7218369c655480a9c26803971ffcc94"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/varpulis/varpulis/releases/download/v#{version}/varpulis-linux-x86_64"
-      sha256 "04e822063e3b2068c1fd110bcdc317683e6178de0cb2c8612c3750d37f53a1f3"
+      sha256 "ccb1d7bfaf3a1b50d848fdbd0537cbd084dd9b087904d0f531ed2ebb0429cf94"
     end
 
     on_arm do
       url "https://github.com/varpulis/varpulis/releases/download/v#{version}/varpulis-linux-aarch64"
-      sha256 "5bf728fd6ce3b04749e429abb15839ddeefa539d305df00acc5787f7773fc5bc"
+      sha256 "fb0fcb177ae280651a7d83b8ec0b7365317c78680fcc2cdea0ef4595cb4a6799"
     end
   end
 
