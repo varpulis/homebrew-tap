@@ -7,24 +7,24 @@ class Varpulis < Formula
   on_macos do
     on_intel do
       url "https://github.com/varpulis/varpulis/releases/download/v#{version}/varpulis-macos-x86_64"
-      sha256 "929540b2be04fa4cc4ea9505903cdb097bb61a04567cf3a2542d20095fa220ce"
+      sha256 "530275778251d0673913ae1bf3310b4e2e4a815664faecca71779b80514c2c30"
     end
 
     on_arm do
       url "https://github.com/varpulis/varpulis/releases/download/v#{version}/varpulis-macos-aarch64"
-      sha256 "c0cb2d881df153f69cff67b057a11b5ee2b2e5248c3757e4d14b12574afe7a8a"
+      sha256 "5d37e4698ed570b868e87d71b8bb84f6e9344f5b6533d9c044415da639565314"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/varpulis/varpulis/releases/download/v#{version}/varpulis-linux-x86_64"
-      sha256 "fae4a8547a2ca9968df0c0fc4ac3e79cb12d08d1f90bec9907cb62e85517e3e1"
+      sha256 "52ac465c36f3f3b1aaa2860bc76c38aa49c69dd5d91f9654ec6c37196c12f498"
     end
 
     on_arm do
       url "https://github.com/varpulis/varpulis/releases/download/v#{version}/varpulis-linux-aarch64"
-      sha256 "26fefd312291ecf3681e6982e1b7d56474f46ffe17cc70498b3cc70b2517586a"
+      sha256 "c37252093a98cb5cb396674d098bc4d273c1abea9382af4ad7aee1b6a9b5951a"
     end
   end
 
