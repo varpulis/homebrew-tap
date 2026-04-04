@@ -19,7 +19,7 @@ class Varpulis < Formula
   on_linux do
     on_intel do
       url "https://github.com/varpulis/varpulis/releases/download/v#{version}/varpulis-linux-x86_64"
-      sha256 "2c43ba892c3f02076a5432a31827c4625b7ed292fedd17b54c13bcca5f354214"
+      sha256 "2bc44d13a6c744f1f90a22d3eb54cd9c4a2b87dc852d2f4e8aa158fba4298cf8"
     end
 
     on_arm do
